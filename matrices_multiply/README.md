@@ -10,6 +10,6 @@ This is matrices multiply program written by following methods.
 
 ## Validation
 
-* C language: gcc 4.9.2
-* C++: g++ 4.9.2
-* MPI: Open MPI 
+* C language: gcc 4.8.2
+* C++: g++ 4.8.2
+* MPI: Open MPI

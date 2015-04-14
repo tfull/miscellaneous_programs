@@ -55,8 +55,8 @@ int main(int argc, char *argv[]){
         }
     }
 
-    std::ifstream in1("data1.txt");
-    std::ifstream in2("data2.txt");
+    std::ifstream in1(argv[2]);
+    std::ifstream in2(argv[3]);
 
     if(! in1 || ! in2){
         std::cerr << "cannot open files" << std::endl;
