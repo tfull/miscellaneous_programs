@@ -9,7 +9,7 @@ OCaml file attached to this project make equation automatically.
 
 ## Validation
 
-C language: gcc 4.9.2
+C language: gcc 4.9.2  
 OCaml: ocaml 4.02.1
 
 ## Usage
@@ -64,7 +64,7 @@ Lex や YACC を使わずに字句解析および構文解析を実現してい�
 
 ## 動作確認
 
-C language: gcc 4.9.2
+C language: gcc 4.9.2  
 OCaml: ocaml 4.02.1
 
 ## 使用方法
