@@ -13,6 +13,7 @@ main = do
     forM_ (take ((maxN + 1) `div` 2) odds) $ \n -> do
         putStrLn $ show n ++ ": " ++ show (loop n 1 1)
 
+loop :: Integer -> Integer -> Integer -> Integer
 loop n k t =
     let nt = t * (n - k + 1) `div` k in
     if nt `mod` 2 == 0 then
